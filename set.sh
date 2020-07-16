@@ -11,3 +11,5 @@ sudo pip install --no-cache-dir virtualenv
 sudo pip install --no-cache-dir virtualenvwrapper
 #copy .files to home folder
 find . -type f | awk -F"/" '$NF~ /^\..*$/ {system("rm -f ~/"$NF" && ln -s $(pwd)/"$NF" ~/"$NF)}'
+#reload bashrc file.
+source ~/.bashrc
