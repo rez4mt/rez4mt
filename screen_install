@@ -1,0 +1,8 @@
+sudo apt install autoconf libncurses5-dev
+cd /tmp
+wget http://ftp.gnu.org/gnu/screen/screen-4.8.0.tar.gz
+cd screen-4.8.0/
+./autogen.sh
+./configure --enable-colors256
+make 
+sudo make install
