@@ -18,7 +18,6 @@ Plug 'jmcantrell/vim-virtualenv'
 Plug 'mohd-3/python-syntax.vim'
 Plug 'tomtom/tcomment_vim'
 Plug 'preservim/nerdtree'
-" Plug 'cohlin/vim-colorschemes'
 Plug 'Vimjas/vim-python-pep8-indent'
 call plug#end()
 
@@ -79,8 +78,8 @@ let mapleader=","
 nnoremap <silent> <leader>t :TagbarToggle<CR>
 nnoremap <silent> <leader>u :UndotreeToggle<CR>
 nmap <leader>gs :G<CR>
-nmap <leader>gh :diffget //3<CR>
-nmap <leader>gu :diffget //2<CR>
+nmap <leader>gj :diffget //3<CR>
+nmap <leader>gf :diffget //2<CR>
 nnoremap <silent> <leader>d :ALEGoToDefinition<CR>
 nnoremap <silent> <leader>r :ALEFindReferences<CR>
 nnoremap <silent> <leader>en :ALENext<CR>
