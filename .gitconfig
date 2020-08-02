@@ -4,5 +4,3 @@ lg2 = log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(
 lg3 = log --all --decorate --oneline --graph
 lg4 = log --graph --abbrev-commit --decorate --date=relative --all
 lg = !"git lg4"
-[merge]
-	ff = false
