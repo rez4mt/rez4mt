@@ -4,7 +4,7 @@ set wildignore+=*.pyc,*/env/*
 
 call plug#begin('~/.vim/bundle')
 Plug 'mohd-3/lightline.vim'
-Plug 'wakatime/vim-wakatime'
+" Plug 'wakatime/vim-wakatime'
 Plug 'sickill/vim-monokai'
 Plug 'dense-analysis/ale'
 Plug 'maximbaz/lightline-ale'
