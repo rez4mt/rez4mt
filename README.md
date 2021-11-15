@@ -1,6 +1,6 @@
 ### Hey there 
 
--  I’m currently learning Python, .Net Core and Kotlin
+-  I’m currently learning JS
 -  How to reach me: [instagram](https://www.instagram.com/rezza.motlagh)
 
 Languages and Tools:
