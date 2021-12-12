@@ -184,7 +184,7 @@ map <leader>g :YcmCompleter GoTo<CR>
 let g:ycm_server_keep_logfiles = 1
 let g:ycm_server_log_level = 'debug'
 let g:ycm_path_to_python_interpreter = 'python3'
-let g:ycm_tsserver_binary_path='/Users/spencerbrown/loancrate/node_modules/typescript/bin/tsserver'
+let g:ycm_tsserver_binary_path='/Users/reza/workspace/loancrate/node_modules/typescript/bin/tsserver'
 
 autocmd bufnewfile,bufread *.tsx set filetype=typescript.tsx
 autocmd bufnewfile,bufread *.jsx set filetype=javascript.jsx
