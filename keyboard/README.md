@@ -1,3 +1,3 @@
-![First Layer](keyboard/Layer 0.png)
+![First Layer](Layer-0.png)
 
-![Second Layer](keyboard/Layer 1.png)
+![Second Layer](Layer-1.png)
